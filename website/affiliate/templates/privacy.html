@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Treadmill Deals</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'affiliate/css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="{% url 'home' %}">Treadmill Deals!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'privacy' %}">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container px-4 px-lg-5">
+                    <!-- Heading Row-->
+                    <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                        <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="{% static 'images/1.jpg' %}" alt="..." /></div>
+                        <div class="col-lg-5">
+                            <h1 class="font-weight-light">Treadmill Deals....</h1>
+                            <br/><h1>Privacy Policy</h1>
+        </div>
+
+<div class="container"><br/><br/>
+                <p>We know that you care how information about you is used and shared, and we appreciate your trust that we will do so carefully and sensibly. This Privacy Notice describes how Amazon Seller Services Private Limited and its affiliates including Amazon.com, Inc. (collectively "Amazon") collect and process your personal information through Amazon websites, devices, products, services, online marketplace and applications that reference this Privacy Notice (together "Amazon Services").
+
+        By using Amazon Services you agree to our use of your personal information (including sensitive personal information) in accordance with this Privacy Notice, as may be amended from time to time by us at our discretion. You also agree and consent to us collecting, storing, processing, transferring, and sharing your personal information (including sensitive personal information) with third parties or service providers for the purposes set out in this Privacy Notice.
+
+        Personal information subject to this Privacy Notice will be collected and retained by Amazon, with a registered office at 8th floor, Brigade Gateway 26/1 Dr. Rajkumar Road Bangalore Karnataka 560055 India.</p>
+</div>
+                        <div class="container">
+                            <br/><br/>
+                        </div>
+<footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Treadmill Deals! 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'affiliate/js/scripts.js' %}"></script>
+    </body>
+</html>
